@@ -45,10 +45,10 @@ for (var i = 0; i < navLinks.length; i++) {
 }
 
 //ripple effect for home
-jquery(document).ready(function(){
+jQuery(document).ready(function(){
    "use strict"
-   $(home).ripples({
+   $('.home').ripples({
     dropRadius: 10,
     perturbance: 0.01,
   });
-})
+});
