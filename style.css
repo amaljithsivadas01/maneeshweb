@@ -7,6 +7,9 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+body{
+  background-color: #000;
+}
 
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
@@ -151,7 +154,7 @@ nav.sticky .menu-btn{
 .home .button button{
   outline: none;
   padding: 8px 16px;
-  border-radius: 50px;
+  border-radius: 20px;
   font-size: 25px;
   font-weight: 400;
   background: #30d158;
@@ -238,7 +241,7 @@ section .button{
 section .button button{
   outline: none;
   padding: 8px 16px;
-  border-radius: 50px;
+  border-radius: 20px;
   font-size: 25px;
   font-weight: 400;
   background: #30d158;
@@ -319,13 +322,15 @@ section .button button:hover{
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
+  color: #fff;
+  background: #1C1C1E;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
   background: #30d158;
-  color: #1C1C1E;
+  color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
@@ -350,17 +355,18 @@ section .button button:hover{
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
-  color: #fff;
+  color: #1C1C1E;
 }
 /* Contact Me CSS */
 .contact{
-  background: #30d158;
+  background: #000;
 }
 .contact .content{
   margin: 0 auto;
   padding: 30px 0;
 }
 .contact .text{
+  color: #fff;
   width: 80%;
   text-align: center;
   margin: auto;
@@ -505,6 +511,6 @@ footer .text span a:hover{
   }
   .skills-details .boxes .per{
     font-size: 50px;
-    color: #1C1C1E;
+    color: #fff;
   }
 }
