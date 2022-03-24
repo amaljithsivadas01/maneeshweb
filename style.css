@@ -27,7 +27,7 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #32914a;
 }
-/* navbar styling */
+/* navigation bar styling */
 nav{
   position: fixed;
   width: 100%;
